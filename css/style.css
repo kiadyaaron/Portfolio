@@ -269,17 +269,19 @@ color: #0D0F16;
   position: relative;
   box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
 }
-.item1 { grid-area: one;
-   background-image: url(../img/project05.png);
+.item1 { 
+  grid-area: one;
+  background-image: url(../img/gk_hair.jpg);
    
 }
 .item2 {
   grid-area: two;
-  background-image: url(../img/project02.png);
+  background-image: url(../img/home.jpg);
 }
-.item3 { grid-area: three; background-image: url(../img/project03.png); }
-.item4 { grid-area: four; background-image: url(../img/project04.png); }
-.item5 { grid-area: five; background-image: url(../img/project01.png);}
+.item3 {
+  grid-area: three; 
+  background-image: url(../img/rme.jpg); 
+}
 
 .project-grid {
 display: grid;
@@ -994,5 +996,11 @@ a{
      .border3{
       border-left: none; 
   }
+}
+.profil {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
