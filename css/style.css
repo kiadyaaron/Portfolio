@@ -885,6 +885,20 @@ header {
   text-decoration: underline;
 }
 
+.theme-link.theme-icon {
+  margin-left: 8px;
+  padding: 4px 8px;
+  background-color: transparent;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 36px;
+  min-height: 36px;
+  text-decoration: none;
+}
+
+
 /* ====== BACK TO TOP ====== */
 .back-to-top {
   position: fixed;
